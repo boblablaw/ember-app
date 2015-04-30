@@ -4,11 +4,10 @@ gem 'rails', '4.2.1'
 
 gem 'rails-api'
 gem 'thin'
-gem 'active_model_serializers', :github => 'rails-api/active_model_serializers'
+gem 'active_model_serializers'
 
 group :development, :test do
-  gem 'debugger'
-  gem 'sqlite3'
+    gem 'sqlite3'
 end
 
 group :production do
